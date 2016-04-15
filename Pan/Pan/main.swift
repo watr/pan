@@ -8,7 +8,7 @@
 import Foundation
 import WebKit
 
-let currentVersionDescription: String = "pan 0.0.1"
+let currentVersionDescription: String = "pan 0.0.2"
 
 let specifiedTitle = NSUserDefaults.standardUserDefaults().stringForKey("title")
 
