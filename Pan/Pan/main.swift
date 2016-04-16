@@ -73,6 +73,6 @@ if !(htmlString.isEmpty) {
         window.makeKeyAndOrderFront(nil)
         
         NSApplication.sharedApplication().activateIgnoringOtherApps(true)
+        NSApplication.sharedApplication().run()
     }
-    NSApplication.sharedApplication().run()
 }
